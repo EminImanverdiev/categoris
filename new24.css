@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#section{
+  width: 70%;
+  height: 40vh;
+  text-align: center;
+  margin: 28px auto;
+}
+#section table{
+  margin: auto;
+  border-collapse: collapse;
+
+}
+.reng{
+  height: 70px;
+  background-color: rgb(84, 153, 238);
+  font-size: 20px;
+}
+tbody tr td{
+  height: 30px;
+}
+.div
+{
+  width: 300px;
+  height: 120px;
+  background-color: aqua;
+  margin: auto;
+
+
+}
+.div{
+  width: 300px;
+  height: 170px;
+  margin: 130px auto;
+  position: relative;
+  background-color: rgb(15, 94, 198);
+  border-radius: 5px;
+  display: none;
+}
+
+.div1{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  padding-top: 10px;
+}
+.div1 p{
+  font-size: 17px;
+  font-weight: 900;
+  cursor: pointer;
+  color: white;
+}
+.div2{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: 9px auto;
+}
+.div2 button {
+  color: white;
+  border: none;
+}
+.div3{
+  width: 150px;
+  height: 90px;
+  position: absolute;
+  right: 0;
+  top: 64%;
+  display: flex;
+  justify-content: space-around;
+}
+.div3 button{
+  width: 70px;
+  height: 30px;
+  margin-top: 19px;
+}
+.div hr{
+ height: 1px;
+ background-color: rgb(47, 44, 44);
+ border: none;
+}
+.red{
+  background-color: red;
+  color: white;
+}
+.poineter{
+  pointer-events: none;
+}
+
+.blue
+{
+  background-color: blue;
+  color: white;
+}
+
+.lightblue
+{
+  background-color: rgb(9, 44, 149);
+  color: white;
+}
