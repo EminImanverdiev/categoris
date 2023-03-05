@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(3, 33, 58);
+}
+.container nav{
+    width: 100%;
+    height: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    color: white;
+}
+.container nav ul{
+    display: flex;
+    gap: 50px;
+}
+.container ul li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 21px;
+}
+.mid-div{
+    width: 50%;
+    height: 350px;
+    background-color: aliceblue;
+    margin: 99px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.mid-div .left-area{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.mid-div .right-area{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(144, 144, 147);
+    padding: 70px 50px;
+    text-align: center;
+}
+.mid-div .right-area h1{
+    margin-bottom: 10px;
+}
+.mid-div .right-area p{
+    margin-top: 50px;
+}
+.mid-div .right-area a{
+    padding: 10px 40px;
+    background-color: rgb(178, 178, 239);
+    display: inline-block;
+    margin-top: 42px;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+}
+.area{
+    width: 60%;
+    text-align: center;
+}
+.area input{
+    width: 100%;
+    height: 35px;
+    margin: 9px;
+    padding: 0px 5px;
+    background-color: rgb(194, 191, 190);
+    border-radius: 5px;
+    outline: none;
+}
+.area input::placeholder{
+    color: black;
+}
+.area h3{
+    text-decoration: underline;
+    margin-left: 13px;
+    cursor: pointer;
+}
+.area a{
+    padding: 10px 50px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(149, 147, 146);
+    border-radius: 30px;
+    margin-top: 10px;
+    color: black;
+}
+.container-register{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(118, 172, 243);
+    padding-top: 39px;
+    background-image: url(https://www.ampthillpractice.co.uk/media/content/images/register.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.red{
+    border: 2px solid red;
+}
+input[type=file]{
+        color:transparent;
+}
+
+#passLogin{
+    --color: #0077ff;
+    font-family: inherit;
+    display: inline-block;
+    width: 10em;
+    height: 40px;
+    overflow: hidden;
+    margin: 20px;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+  }
+  
+ #passLogin::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 220px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  #passLogin:hover {
+    color: white;
+  }
+  
+  #passLogin:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+  }
+  .red{
+    border: 1px solid red;
+  }
+  
+  #passLogin:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+.register{
+    width: 40%;
+    padding: 40px 0px;
+    background-color: rgb(162, 175, 188,0.3);
+    border-radius: 40px;
+    border: none;
+    margin: 40px auto;
+}
+.register input{
+    width: 70%;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 9px;
+    margin: 10px 70px;
+    outline: none;
+    border-radius: 7px;
+}
+.register button{
+    width: 70%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: auto;
+    margin: 10px 70px;
+}
+.account-part{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(24, 103, 127);
+    display: flex;
+    justify-content: space-around;
+
+}
+.account-part img{
+    width: 400px;
+    height: 400px;
+    margin: 10%;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 30px;
+}
+.account-right{
+    width: 100%;
+    height: 420px;
+    background-color: rgb(7, 58, 97);
+    margin: 10%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 99px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px black;
+}
+.account-right img{
+    width: 100px;
+    height: 100px;
+}
+.account-right h2{
+    margin-top: 10px;
+}
+.newPassword{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 99px auto;
+    border-radius: 10px;
+    background-color: aquamarine;
+    opacity: 0.8;
+}
+.newPassword input{
+    width: 70%;
+    height: 40px;
+    border: none;
+    margin: 0px 30px;
+    outline: none;
+    padding-left: 3px;
+    font-size: 14px;
+    margin-top: 35px;
+    margin-bottom: 60px;
+
+}
+.newPassword button{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background-color: #00b894;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.new-page-password{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 70% 90%;
+    background-repeat: no-repeat;
+    background-image: url(https://media1.giphy.com/media/IgLIVXrBcID9cExa6r/giphy.gif);
+    display: none;
+    padding-top: 60px;
+}
+.fa-lock{
+    position: absolute;
+    font-size: 29px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}

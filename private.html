@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private</title>
+    <link rel="stylesheet" href="private.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="private.js" defer></script>
+</head>
+<body>
+      <div class="container" id="con">
+         <nav> 
+            <h2>MilliSoft</h2>
+            <ul>
+                <li>Ana Seyfe</li>
+                <li>Xidmetler</li>
+                <li><a style="text-decoration: none; color: white;" href="#">Login</a></li>
+            </ul>
+         </nav>
+         <div class="mid-div">
+             <div class="left-area">
+                  <div class="area">
+                      <h1>Daxil olun</h1>
+                      <input type="text" placeholder="Username" id="passName" id="er">
+                      <input type="password" placeholder="password" id="passPassword">
+                      <h3 id="sifre">Şifrenizi unutmusunuz?</h3>
+                      <a href="#" id="passLogin">Daxil ol</a>
+                  </div> 
+             </div>
+             <div class="right-area">
+                   <h1>Xosh Görduk</h1>
+                   <p>Buradan qeydiyyatdan kece bilersiniz....</p>
+                   <a href="#" id="newUser">Qeydiyyat</a>
+             </div>
+         </div>
+      </div>
+      <div class="container-register" id="con_reg" style="display: none;">
+            <h1 style="text-align:center;color:wheat">Welcome TO Register</h1>
+           <div class="register">
+              <input type="text" placeholder="Name" class="name">
+              <input type="text" placeholder="Surname" id="surname">
+              <input type="text" placeholder="Username" id="username">
+              <input type="password" placeholder="Password" id="password">
+              <input type="file" id="fileInp">
+              <button id="qeyd_et">Qeydiyyat edin</button>
+           </div>
+      </div>
+      <div class="account-part" id="accountPart" style="display: none;">
+        <i class="fa-solid fa-lock"></i>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Google_account_icon.svg/640px-Google_account_icon.svg.png" alt="">
+          <div class="account-right">
+               <h1 style="color: rgb(238, 63, 63);font-size: 45px;">This is your Acount</h1>
+              <h2>Adiniz: <span style="color: wheat;" id="ad">Elmin</span></h2>
+              <h2>Soyadiniz: <span style="color: wheat;" id="soyad">Imanverdiyev</span></h2>
+              <img id="picture" src="" alt="">
+          </div>
+
+        </div>
+        <div class="new-page-password" id="newPagePassword">
+            <div class="newPassword">
+            <input type="text" placeholder="CurrentPasword" id="currentpasword">
+            <input type="text" placeholder="NewPassword" id="newpassword">
+            <input type="text" placeholder="newPassword" id="confirmationPassword">
+            <button id="deyis">Change</button>
+       </div>
+        </div>
+       
+</body>
+</html>
